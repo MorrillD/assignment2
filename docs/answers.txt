@@ -1,0 +1,57 @@
+(a)
+   On branch master
+   Your branch is up to date with 'origin/master'.
+
+   nothing to commit, working tree clean
+
+(b)
+   There have been a total of 9 commits to the repository. I used this command to count 
+   and print the commits to the current respositroy, git rev-list --count HEAD. I also
+   simply used git log and counted each commit to assure the previous command was correct.
+
+(c)
+   Dylans-MacBook-Pro:assignment2 dmorrill$ git log .gitignore
+   commit e424a923e80da4772ca789591ef3326230062a71
+   Author: Esteban Parra <estebanpr014@gmail.com>
+   Date:   Wed Sep 25 18:13:30 2019 -0400
+
+   The first line contains the command I used and the last line contains the date of the 
+   last modification.
+
+(d)
+   One of the main reasons that branches are used in respoitories is that they allow multiple
+   developers to work on different facets of the same project without any collateral damage.
+   The second reason is to allow developers to work on projects while a version of said project
+   is live or have gone through production.
+
+(e)
+   Git status displays the differences between the current directory or respository and the
+   current HEAD commit or master branch. Where as git log basically lists all the commit logs.
+
+(f)
+   git log Vehicle.h
+
+(g)
+   git log --grep="file"
+
+(h)
+   Inheritance, with regards to object oriented programming, allows objects to take on or inherit 
+   attributes, properties, and methods from another object. Polymorphism refers to the concept
+   that methods or interfaces should be capable of reading objects of different types. Encapsulation
+   is closely connected to classes as this concept refers to compiling data properties and methods 
+   that use that data, together such as a class. This allows the developer to hide the class data
+   and methods behind an object. 
+
+(i)
+   The main difference is in the integration workflow, each developer has their own pubic repository
+   to push. Each of which are pulled by the integration manager that resolves any conflicts then
+   pushes to the master repository. With the Dictator and Lieutenants workflow each developer pushes
+   their changes to a given "lieutenant" or similarly integration manager that resolves conflicts.
+   Then each leutenant pushes to the dicator, who merges all the changes and resolves final conflicts
+   before pushing to the master repository. 
+
+(j)
+   If a 100 developrs were following a centralized workflow, the amount of confflicts could be exponential
+   and resolving all the conflicts in a timely manner would be nearly impossible. That is why the Dictator
+   and Lieutenant workflow would be beneficial. This workflow allows for changes and conflicts to be micro-
+   managed using the lieutenants and the dictator. 
