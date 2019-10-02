@@ -5,6 +5,10 @@
 #include "Skateboard.h"
 #include <stdlib.h>
 
+Skateboard::Skateboard() {
+   setBrand("unknown");
+   setModel("unknown");
+}
 
 Skateboard::Skateboard(string brand, string model) {
     setBrand(brand);
