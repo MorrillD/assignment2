@@ -55,3 +55,9 @@
    and resolving all the conflicts in a timely manner would be nearly impossible. That is why the Dictator
    and Lieutenant workflow would be beneficial. This workflow allows for changes and conflicts to be micro-
    managed using the lieutenants and the dictator. 
+
+(5 OOP Principles)
+   Both polymorphism and encapsulation are used within this driving simulator. Polymorphism is used as say
+   the bycicle and skateboard class inherits from Vehicle allowing an object of type vehicle to assess other
+   types such as the bycicle and skateboard. Encapsulation is used in the creation of all of our classes as
+   classes are a construction or data and methdods that are perform on said data.
